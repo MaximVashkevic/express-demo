@@ -13,6 +13,6 @@ app.get("/", function(req, res){
     res.send(text)
 })
 
-app.listen(3000, function(){
+app.listen(process.env.PORT, function(){
     console.log("server started...")
 })
